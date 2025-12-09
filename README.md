@@ -38,7 +38,7 @@ Everything typed is saved instantly to typed_output.txt
 
 🧾 Instant Notepad Launch
 
-First successful gesture opens Notepad automatically so you can see the text being typed
+On the first gesture, Notepad opens automatically to show typed text
 
 🖼️ Resizable Window
 
@@ -92,53 +92,52 @@ I --> C
 
 Uses built-in hand landmark model
 
-Extracts fingertip positions (index, middle finger)
+Extracts fingertip positions (index & middle finger)
 
 2️⃣ Mapping Finger Positions to Keys
 
 Each keyboard button is a bounding box
 
-If fingertip enters a box → key is “pressed”
+If a fingertip enters the box → the key is considered “pressed”
 
 3️⃣ Triggering Key Press
 
-PyAutoGUI simulates typing
+PyAutoGUI simulates the actual typing
 
-On first gesture, Notepad auto-opens
-
-Ensures smooth typing experience
+Notepad auto-opens on first gesture
 
 4️⃣ Rendering the Keyboard
 
-OpenCV draws keys, highlights pressed keys
+OpenCV draws the keyboard
 
-Creates a neon keyboard UI
+Highlights the detected key
+
+Neon-style theme for modern look
 
 5️⃣ Real-Time Output
 
-Text instantly appears in the on-screen display
+Text appears instantly on-screen
 
-Also saved to typed_output.txt
+Also saved continuously in typed_output.txt
 
 📷 Screenshots & Demo
 
-(Add this AFTER uploading your images)
+(Add this after uploading your image in the /images folder)
 
 ## 🖼 Demo Screenshot
-
 ![Gesture Keyboard](images/your-image.png)
 
 🧪 Output Examples
-✔ typed_output.txt
+✔ Contents of typed_output.txt
 Hello, this is a demo of the virtual gesture keyboard!
 
-✔ Real-time UI
+✔ Real-time UI shows:
 
-Shows keyboard
+Keyboard layout
 
-Highlights pressed key
+Highlighted pressed key
 
-Displays typed text
+Live typed text preview
 
 🚀 Future Improvements
 
@@ -155,6 +154,7 @@ Displays typed text
 🙌 Contributions
 
 Pull requests are welcome!
+Feel free to fork the project and enhance it.
 
 💬 Support
 

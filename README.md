@@ -61,16 +61,6 @@ pip install opencv-python mediapipe pyautogui
 3️⃣ Run the virtual keyboard
 python virtual_keyboard.py
 
-🗂 Project Structure
-virtual-keyboard/
-│
-├── images/                  # Screenshots and demo images
-├── virtual_keyboard.py      # Main gesture keyboard program
-├── main.py                  # Alternate runner (optional)
-├── typed_output.txt         # Auto-generated typed text
-├── README.md                # Project documentation
-└── requirements.txt         # Dependencies (optional)
-
 📊 System Flowchart
 flowchart TD
 
@@ -105,7 +95,7 @@ If a fingertip enters the box → the key is considered “pressed”
 PyAutoGUI simulates the actual typing
 
 Notepad auto-opens on first gesture
-
+  
 4️⃣ Rendering the Keyboard
 
 OpenCV draws the keyboard

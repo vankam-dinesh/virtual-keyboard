@@ -11,7 +11,7 @@ Detects fingertips using MediaPipe Hand Tracking
 Tracks finger position to determine which key is “pressed”
 
 Supports both tap and hover based detection
-
+      
 🎨 Modern & Stylish UI
 
 Neon gradient keyboard

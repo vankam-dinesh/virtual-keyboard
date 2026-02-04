@@ -8,7 +8,7 @@ Type without touching your keyboard — just move your fingers in front of your 
 
 Detects fingertips using MediaPipe Hand Tracking
 
-Tracks finger position to determine which key is “pressed”
+Tracks finger position to determine which key is “pressed”       
 
 Supports both tap and hover based detection
       
